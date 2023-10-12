@@ -52,7 +52,7 @@ function Booking(){
                                                 <i class="fa fa-user-o" aria-hidden="true"></i> 2 adults &#46; 0 children &#46; 1 room
                                         </div>
                                         <div className='border border-3 col-xl-1 col-lg-1 p-0 border-warning'>
-                                                <button className='btn rounded fs-5 text-white px-4 search w-100'>Search</button>
+                                                <button className='btn rounded fs-5 text-white text-center search w-100 h-100'>Search</button>
                                         </div>
                                 </div>
 
