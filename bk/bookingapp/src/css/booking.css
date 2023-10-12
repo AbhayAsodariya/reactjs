@@ -3,35 +3,38 @@
         color: white;
         padding: 30px 0 0 0;
 }
-.reg,.nav{
-        padding: 0 200px;
-}
 .reg h1{
         font-size: 30px;
 }
 .rg-sn{
         background: white;
         border: 1px solid #003B95;
+        padding: 4px 10px;
         margin: 0 4px;
         color: #003B95;
-}
-.nav-link{
-        color: white;
 }
 .section{
         background: url(https://r-xx.bstatic.com/xdata/images/xphoto/2880x868/279346280.jpeg?k=1f5ef835475595e138026356cdf0664eafb17cc2fc5aa9d09d90407d7ca866a1&o=);
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
-        padding: 100px 200px 120px;
+        /* padding: 100px 200px 120px; */
 }
 .dis{
         background: #006CE4;
         font-size: 17px;
         padding: 12px 17px;
 }
-.hed{
-        font-size: 40px;
-        font-weight: bold;
+.search{
+        background: #006CE4;
 }
-
+.footbar{
+        bottom: -7%;
+        left: 10%;
+}
+@media(max-width:1000px){
+        .footbar{
+                transform: translate(0px,150px);
+                position: static !important;
+        }
+}
