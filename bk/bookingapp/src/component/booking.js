@@ -3,8 +3,8 @@ import '../css/booking.css';
 
 function Booking(){
         return(
-                <>
-                <div className="header">
+        <>
+                <div className="header pt-3 text-white">
 
                         <div className='container px-5'>
                                 <div className="reg d-flex justify-content-between align-items-center">
@@ -14,9 +14,9 @@ function Booking(){
                                                 <img className="rounded-circle" src="https://t-cf.bstatic.com/design-assets/assets/v3.96.0/images-flags/In@3x.png" alt="" width={"30px"}/>
                                                 <span className='mx-3 fs-3'><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
                                                 <span><b>List your property</b></span>
-                                                <span >
-                                                        <button className='rg-sn rounded'>Register</button>
-                                                        <button className='rg-sn rounded'>Sign in</button>
+                                                <span>
+                                                        <button className='rg-sn bg-white rounded'>Register</button>
+                                                        <button className='rg-sn bg-white rounded'>Sign in</button>
                                                 </span>
                                         </div>
                                 </div>
@@ -34,25 +34,30 @@ function Booking(){
                         </div>
                         
                 </div>
-                <div className="section py-5 position-relative">
+
+
+                <div className="section text-white py-5 position-relative">
                         <div className='container p-5'>
 
                                 <h1 className='fs-1 fw-bold my-2'>Howzat for a perfect stay</h1>
                                 <p className='fs-4 mb-4'>Search hotels, homes and much more</p>
-                                <button className='dis rounded-1 text-white fw-bold'>Discover more</button>
+                                <button className='dis border-0 rounded-1 text-white fw-bold'>Discover more</button>
 
-                                <div className='footbar row text-black position-absolute w-100'>
-                                        <div className='border col-xl-3 col-lg-3 border-3 bg-white p-0 border-warning'>
-                                                <input type="text" className='p-2 border-0' placeholder='Where are you doing?'/>
-                                        </div>
-                                        <div className='border border-3 col-xl-3 col-lg-3 bg-white border-warning p-2'>
-                                                <i class="fa fa-calendar" aria-hidden="true"></i> Check-in Date -- Check-out Date
-                                        </div>
-                                        <div className='border border-3 col-xl-3 col-lg-3 bg-white border-warning p-2'>
-                                                <i class="fa fa-user-o" aria-hidden="true"></i> 2 adults &#46; 0 children &#46; 1 room
-                                        </div>
-                                        <div className='border border-3 col-xl-1 col-lg-1 p-0 border-warning'>
-                                                <button className='btn rounded fs-5 text-white text-center search w-100 h-100'>Search</button>
+                                <div className='footbar text-black position-absolute w-100 start-0'>
+                                        <div className='row justify-content-center'>
+                                                <div className='border position-relative col-xl-3 col-lg-3 border-4 bg-white p-0 border-warning rounded overflow-hidden'>
+                                                        <input type="text" className='inp w-100 p-3 ps-5 border-0' placeholder='Where are you doing?'/>
+                                                        <i class=" fa fa-bed position-absolute start-0 p-2 py-3 fs-5" aria-hidden="true"></i>
+                                                </div>
+                                                <div className='border border-4 col-xl-3 col-lg-3 bg-white border-warning p-3 rounded overflow-hidden'>
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i> Check-in Date -- Check-out Date
+                                                </div>
+                                                <div className='border border-4 col-xl-3 col-lg-3 bg-white border-warning p-3 rounded overflow-hidden'>
+                                                        <i class="fa fa-user-o" aria-hidden="true"></i> 2 adults &#46; 0 children &#46; 1 room
+                                                </div>
+                                                <div className='border border-4 col-xl-1 col-lg-1 p-0 border-warning rounded overflow-hidden'>
+                                                        <button className='border-0 fs-5 text-white text-center search w-100 h-100'>Search</button>
+                                                </div>
                                         </div>
                                 </div>
 
