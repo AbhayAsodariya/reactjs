@@ -23,15 +23,18 @@
         background: #006CE4;
 }
 .footbar{
-        bottom: -9%;
+        bottom: -18%;
 }
 .inp{
         outline: none;
 }
-/* .bed{
-        top:50%;
-} */
-
+.inp-check{
+        height: 20px;
+        width: 20px;
+}
+.nwbook,.sw-mp{
+        font-size: 12px;
+}
 @media(max-width:1000px){
         .footbar{
                 transform: translate(0px,150px);
