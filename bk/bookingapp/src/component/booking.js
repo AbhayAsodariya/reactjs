@@ -47,19 +47,9 @@ function Booking() {
           </div>
         </div>
         `
-        // <img src={v.url} width="250px" height="250px" alt="" />
-
-        // html =
-        //   html +
-        //   `
-        // <img style="border-radius:20px" src=${v.url} width="250px"
-        // height="250px">
-        // `;
-        // ttl = ttl + v.hed;
       });
 
       document.getElementById("d").innerHTML = html;
-      // document.getElementById("title").innerHTML = ttl;
     }
   };
   return (
@@ -77,7 +67,7 @@ function Booking() {
                 width={"30px"}
               />
               <span className="mx-3 fs-3">
-                <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                <i className="fa fa-question-circle-o" aria-hidden="true"></i>
               </span>
               <span>
                 <b>List your property</b>
@@ -93,32 +83,32 @@ function Booking() {
             <ul className="navbar list-unstyled">
               <li className="nav-item">
                 <a className="nav-link text-white ps-0 pe-5" href="">
-                  <i class="fa fa-bed" aria-hidden="true"></i> Stays
+                  <i className="fa fa-bed" aria-hidden="true"></i> Stays
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white ps-0 pe-5" href="">
-                  <i class="fa fa-fighter-jet" aria-hidden="true"></i> Flight
+                  <i className="fa fa-fighter-jet" aria-hidden="true"></i> Flight
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white ps-0 pe-5" href="">
-                  <i class="fa fa-globe" aria-hidden="true"></i> Flight + Hotel
+                  <i className="fa fa-globe" aria-hidden="true"></i> Flight + Hotel
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white ps-0 pe-5" href="">
-                  <i class="fa fa-car" aria-hidden="true"></i> Car rentals
+                  <i className="fa fa-car" aria-hidden="true"></i> Car rentals
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white ps-0 pe-5" href="">
-                  <i class="fa fa-meetup" aria-hidden="true"></i> Attractions
+                  <i className="fa fa-meetup" aria-hidden="true"></i> Attractions
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white ps-0 pe-5" href="">
-                  <i class="fa fa-taxi" aria-hidden="true"></i> Airport taxis
+                  <i className="fa fa-taxi" aria-hidden="true"></i> Airport taxis
                 </a>
               </li>
             </ul>
@@ -143,16 +133,16 @@ function Booking() {
                   placeholder="Where are you doing?"
                 />
                 <i
-                  class=" fa fa-bed position-absolute start-0 p-2 py-3 fs-5"
+                  className=" fa fa-bed position-absolute start-0 p-2 py-3 fs-5"
                   aria-hidden="true"
                 ></i>
               </div>
               <div className="border border-4 col-xl-3 col-lg-3 bg-white border-warning p-3 rounded overflow-hidden">
-                <i class="fa fa-calendar" aria-hidden="true"></i> Check-in Date
+                <i className="fa fa-calendar" aria-hidden="true"></i> Check-in Date
                 -- Check-out Date
               </div>
               <div className="border border-4 col-xl-3 col-lg-3 bg-white border-warning p-3 rounded overflow-hidden">
-                <i class="fa fa-user-o" aria-hidden="true"></i> 2 adults &#46; 0
+                <i className="fa fa-user-o" aria-hidden="true"></i> 2 adults &#46; 0
                 children &#46; 1 room
               </div>
 
@@ -166,9 +156,9 @@ function Booking() {
               </div>
 
               <div className="col-xl-10 col-lg-10 p-0 pt-2 d-flex align-items-center">
-                <input className="inp-check border-secondary" type="checkbox" />
+                <input className="inp-check border-secondary" name="lk-fl" type="checkbox" />
                 <label className="mx-2">I'm looking for flights</label>
-                <input className="inp-check border-secondary" type="checkbox" />
+                <input className="inp-check border-secondary" name="lk-fl" type="checkbox" />
                 <label className="mx-2">I'm traveling for work</label>
               </div>
             </div>
@@ -190,50 +180,7 @@ function Booking() {
           <div className="col-xl-9 col-8" id="d">
 
           </div>
-
-          {/* <div className="col-9">
-            <div className="row w-100 border border-1 border-secondry px-2 py-3 rounded-4">
-              <div className="col-4" id="d">
-              </div>
-
-              <div className="col-6">
-                <h4>
-                  <a className="text-decoration-none" id="title" href="">
-                    Golden Serenity Hotel With Swimming Pool, GoaOpens in new
-                    window
-                  </a>
-                </h4>
-                <p className="sw-mp">
-                  <a href="">Aguada</a> . <a href="">Show on map</a>
-                </p>
-                <p>
-                  Located in Aguada, a 17-minute walk from Candolim Beach,
-                  Golden Serenity Hotel With Swimming Pool, Goa has
-                  accommodations with a garden, free private parking, a terrace
-                  and a restaurant.
-                </p>
-              </div>
-              <div className="col-2">
-                <div className="d-flex align-items-center">
-                  <div>
-                    <h5>Good</h5>
-                    <p>29 reviews</p>
-                  </div>
-                  <div className="ms-2">
-                    <a className="bg-primary text-white p-2 rounded-2" href="">
-                      7.3
-                    </a>
-                  </div>
-                </div>
-                <p className="nwbook bg-warning px-1 rounded-1">
-                  New to Booking.com
-                </p>
-                <button className="bg-primary text-white py-1 px-2 border-0 rounded">
-                  Show prices
-                </button>
-              </div>
-            </div>
-          </div> */}
+          
         </div>
       </div>
     </>
