@@ -29,7 +29,7 @@ function Booking() {
           <div class="col-xl-2 col-lg-2 col-12">
             <div class="d-flex align-items-center">
               <div>
-                <h5>Good</h5>
+                <h5>${v.fdbk}</h5>
                 <p>29 reviews</p>
               </div>
               <div class="ms-2">
