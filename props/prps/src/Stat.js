@@ -17,12 +17,7 @@ class Statt extends React.Component{
                         arr:[4,5,6,"AAA"],
                         obj:{nm:"maulik"}
                         
-                })
-        // this.obj=[]
-        // for (this.i = 0; this.i < 100; this.i++) {
-        //     this.obj.push=this.setState({num:this.state.num+1})
-        // }    
-        // this.obj=document.getElementById('d');   
+                })  
         }
         render(){
                 return(

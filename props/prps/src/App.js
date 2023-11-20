@@ -1,11 +1,16 @@
 
-import './App.css';
+import Incre from './Incre';
+import List from './List';
+import Object from './Objectwith';
 import Statt from './Stat';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Statt/>
+      <Incre/>
+      <List/>
+      <Object/>
     </div>
   );
 }
