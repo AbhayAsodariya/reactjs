@@ -1,0 +1,15 @@
+{
+  "studentdata": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "education":"BCA",
+      "eduyear":2023,
+      "phone": "typicode",
+      "address":{
+        "area":"navrangpura",
+        "city":"Ahmedabad"
+      }
+    }
+  ]
+}

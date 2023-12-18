@@ -1,7 +1,9 @@
 import React from 'react'
+import Rot from './Rot'
+import { Link } from 'react-router-dom'
 // import Ref from './Ref'
-import FilterableTable from './Filter'
-import ToDoList from './Todo'
+// import FilterableTable from './Filter'
+// import ToDoList from './Todo'
 
 // const data = [
 //   { id: 1, name: 'John Doe', email: 'john@example.com' },
@@ -13,10 +15,11 @@ import ToDoList from './Todo'
 function App() {
   return (
     <div className="App">
+      <Rot/>
       {/* <Ref/> */}
       {/* <h1>Filterable Table</h1> */}
       {/* <FilterableTable/> */}
-      <ToDoList/>
+      {/* <ToDoList/> */}
     </div>
   )
 }
