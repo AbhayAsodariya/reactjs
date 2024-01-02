@@ -1,6 +1,7 @@
 import React from 'react'
 import Rot from './Rot'
 import { Link } from 'react-router-dom'
+// import Memo from './Usememo'
 // import Ref from './Ref'
 // import FilterableTable from './Filter'
 // import ToDoList from './Todo'
@@ -20,6 +21,7 @@ function App() {
       {/* <h1>Filterable Table</h1> */}
       {/* <FilterableTable/> */}
       {/* <ToDoList/> */}
+      {/* <Memo/> */}
     </div>
   )
 }

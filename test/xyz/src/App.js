@@ -1,43 +1,58 @@
-import React, { useRef, useState } from 'react'
+import logo from './logo.svg';
+import './App.css';
+// import { TestData } from './Users';
+import { useEffect, useState } from 'react';
 
-const data=[
-  {id:1,title:1,subtitle:1},
-  {id:2,title:2,subtitle:2},
-  {id:3,title:3,subtitle:3}
-]
-
-const styl=
-  {
-    color:"green"
-  }
-  
 
 function App() {
-  const h1ref=useRef()
-  const [css,setcss]=useState()
-  
-  function Css(){
-    
-    setcss(styl)
-    h1ref.current.style.color="red"
-    
-  }
-  return (
-    <>
 
-    <main ref={h1ref}>
-      <h1 onClick={Css}>hello</h1>
-    {data.map((t)=>{
-       return(
-       <div>
-        <h1 >title {t.title}</h1>
-        <h3  style={css}>subtitle {t.subtitle}</h3>
-        </div>
-       )
-})}
-    </main>
-    </>
-  )
+  const [query,setQuery] = useState("")
+
+  const [details,setDetails] = useState([])
+useEffect(()=>{
+  
+  fetch('https://jsonplaceholder.typicode.com/users')
+  .then((res)=>{return res.json()})
+  .then((data)=>{
+    setDetails(data)
+  })
+})
+
+
+  return (
+    <div className="App">
+
+      Search: 
+      <input value={query}
+
+      onChange={(e)=>{setQuery(e.target.value)}}
+      
+      
+      />
+
+     <ul>
+
+      {
+      
+      details.filter((items)=>items.username.toLowerCase().startsWith(query))
+      .map(item =>(
+        <li>{item.username}</li>
+      ))
+      
+      
+      
+      }
+
+      {/* {TestData.map(items =>(
+
+        <li>{items.name}</li>
+      ))} */}
+    
+      
+     </ul>
+  
+    </div>
+  );
 }
 
-export default App
+export default App;

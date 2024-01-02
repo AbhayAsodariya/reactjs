@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 import { Col, Row } from 'react-bootstrap'
 
 function Services() {
@@ -8,15 +8,16 @@ function Services() {
 
         <Row>
                 <Col>
-                        <Link to="/service1">Service-1</Link>
+                        <Link to="/services/service1">Service-1</Link>
                 </Col>
                 <Col>
-                        <Link to="/service2">Service-2</Link>
+                        <Link to="/services/service2">Service-2</Link>
                 </Col>
                 <Col>
-                        <Link to="/service3">Service-3</Link>
+                        <Link to="/services/service3">Service-3</Link>
                 </Col>
         </Row>
+        <Outlet/>
       
     </div>
   )

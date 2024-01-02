@@ -1,0 +1,32 @@
+export const data=[
+        {
+                id:1,
+                name:"uhbhb",
+                city:"Ahmedabad",
+                phone:965965
+        },
+        {
+                id:2,
+                name:"kjm",
+                city:"Ahmedabad",
+                phone:8795
+        },
+        {
+                id:3,
+                name:"Aaa",
+                city:"Ahmedabad",
+                phone:874512
+        },
+        {
+                id:4,
+                name:"jnfd",
+                city:"Ahmedabad",
+                phone:895865
+        },
+        {
+                id:5,
+                name:"okd",
+                city:"Ahmedabad",
+                phone:985784
+        }
+]
