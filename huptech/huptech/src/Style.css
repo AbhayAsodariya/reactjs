@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+        background: #FDFCF7;
+}
+.navbar-toggler-icon {
+  color: white !important;
+}
+.toggle {
+  box-shadow: none !important;
+}
+.head {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/img/1.jpg);
+  padding-bottom: 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sell-btn {
+  background: #d8c05f !important;
+  color: black !important;
+  transition: 1s;
+}
+.sell-btn:hover {
+  background: #3b3030 !important;
+  color: #fff !important;
+}
+.Looking-btn {
+  border: 2px solid #d8c05f !important;
+}
+.line {
+  width: 50px;
+  height: 4px;
+  background: #d8c05f;
+}

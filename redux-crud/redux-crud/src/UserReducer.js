@@ -9,27 +9,16 @@ const userSlice = createSlice({
     reducers:{
         addusers:(state,action)=>{
 
-            // console.log(action)
-            // console.log(action.payload)
             console.log(state)
             state.push(action.payload)
 
         },
 
         editUsers:(state,action)=>{
-
-            // console.log(action)
-            // console.log(action.payload)
-
             const {id,name,email} = action.payload;
-            // console.log(id)
-            // console.log(state)
            const userId =  state.find(user=>       
                 user.id == id
             )
-            // console.log(userId)
-
-            // console.log(userId.name ="hello")
 
             if(userId)
              {
@@ -51,11 +40,6 @@ const userSlice = createSlice({
 
 
         }
-
-        
-           
-          
-
        
     }
 })

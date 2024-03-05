@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom'
 
 function CreateUser() {
 
-    // const [id,setId] = useState("")
     const [name,setName] = useState("")
     const [email,setEmail] = useState("")
     const navigate = useNavigate();

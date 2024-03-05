@@ -24,7 +24,6 @@ function Rot() {
           <Route path='/services/service2' element={<Service2/>}></Route>
           <Route path='/services/service3' element={<Service3/>}></Route>
         </Route>
-        
         </Routes>
         </BrowserRouter>
     </div>

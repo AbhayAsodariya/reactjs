@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "json-server",
+      "email": "typicode",
+      "password": "shdjhm"
+    },
+    {
+      "name": "Panchal Himanshu",
+      "email": "panchalhimanshu660@gmail.com",
+      "password": "himanshu_143",
+      "id": "2"
+    },
+    {
+      "name": "Kano Panchal",
+      "email": "xyz",
+      "password": "1234",
+      "id": "3"
+    },
+    {
+      "name": "himanshu panchal",
+      "email": "Himanshu@gmail.com",
+      "password": "123456",
+      "id": "4"
+    },
+    {
+      "name": "Himanshu",
+      "email": "P@gmail.com",
+      "password": "5555",
+      "id": "5"
+    },
+    {
+      "name": "s",
+      "email": "s",
+      "password": "s",
+      "id": "6"
+    },
+    {
+      "name": "Panchal Himanshu",
+      "email": "x",
+      "password": "x",
+      "id": "7"
+    },
+    {
+      "id": "8660",
+      "name": "z",
+      "email": "xyz1",
+      "password": "f"
+    },
+    {
+      "id": "4cdb",
+      "name": "z",
+      "email": "v",
+      "password": "v"
+    }
+  ]
+}

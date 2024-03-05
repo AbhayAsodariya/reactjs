@@ -1,0 +1,18 @@
+Create the same design as given figma.
+- When the user opens the project then the first screen should be shown.
+- There will be ‘+ add vehicle’ when a user clicks on the button then one popup
+should be open where the user can enter vehicle details.
+- When the vehicle modal opens then show fields which are shown in figma.
+- Use appropriate validations for all fields.
+- You can use these statuses to display in dropdown: Pending, Listed, Unlisted, In
+Progress.
+- Once users submit details in modal then vehicle details should be displayed in
+the listing page.
+- Users can also edit vehicle details by clicking on ‘Edit Details’.
+- Users can also delete vehicle details and ask confirmation before delete.
+- You can use any state management library or you can use useState hook.
+- You don’t have to create another page like Today request .
+
+Additional Points:
+- Responsive design.
+

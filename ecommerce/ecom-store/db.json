@@ -1,0 +1,163 @@
+{
+  "userData": [
+    {
+      "id": 1,
+      "username": "AAA",
+      "email": "aaa@gmail.com",
+      "password": 1234,
+      "cpassword": 1234
+    },
+    {
+      "username": "Abhay",
+      "email": "abhay@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 2
+    },
+    {
+      "username": "hsde",
+      "email": "ab@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 3
+    },
+    {
+      "username": "dewwd",
+      "email": "aaa1@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 4
+    },
+    {
+      "username": "dewwd",
+      "email": "aaa2@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 5
+    },
+    {
+      "username": "ha",
+      "email": "ha@gmail.com",
+      "password": "1234567890",
+      "cpassword": "1234567890",
+      "id": 6
+    },
+    {
+      "username": "ah",
+      "email": "ah@gmail.com",
+      "password": "0987654321",
+      "cpassword": "0987654321",
+      "id": 7
+    },
+    {
+      "username": "gg",
+      "email": "gg@gmail.com",
+      "password": "1234567890",
+      "cpassword": "1234567890",
+      "id": 8
+    },
+    {
+      "username": "egg ",
+      "email": "ggg@gmail.com",
+      "password": "0987654321",
+      "cpassword": "0987654321",
+      "id": 9
+    },
+    {
+      "username": "Harsh",
+      "email": "harsh@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 10
+    },
+    {
+      "username": "Devil",
+      "email": "d@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 11
+    },
+    {
+      "username": "maulik",
+      "email": "m@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 12
+    },
+    {
+      "username": "m",
+      "email": "a@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 13
+    },
+    {
+      "username": "aaa",
+      "email": "a1@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 14
+    }
+  ],
+  
+
+
+
+  "product":[
+    {
+      "id": 1,
+      "image": "http://localhost:3000/image/product-02.png",
+      "name": "Head phone",
+      "price": 29
+    },
+    {
+      "id": 2,
+      "image": "http://localhost:3000/image/product-03.png",
+      "name": "Camera",
+      "price": 29
+    },
+    {
+      "id": 3,
+      "image": "http://localhost:3000/image/product-04.png",
+      "name": "Speaker",
+      "price": 29
+    },
+    {
+      "id": 4,
+      "image": "http://localhost:3000/image/product-06.png",
+      "name": "Head phone",
+      "price": 35
+    },
+    {
+      "id": 5,
+      "image": "http://localhost:3000/image/product-07.png",
+      "name": "Camera",
+      "price": 30
+    },
+    {
+      "id": 6,
+      "image": "http://localhost:3000/image/product-06.png",
+      "name": "Speaker",
+      "price": 40
+    },
+    {
+      "id": 7,
+      "image": "http://localhost:3000/image/product-01.png",
+      "name": "Head phone",
+      "price": 35
+    },
+    {
+      "id": 8,
+      "image": "http://localhost:3000/image/product-02.png",
+      "name": "Camera",
+      "price": 29
+    },
+    {
+      "id": 9,
+      "image": "http://localhost:3000/image/product-04.png",
+      "name": "Speaker",
+      "price": 50
+    }
+
+]
+}

@@ -21,14 +21,10 @@ function EditUser() {
         user.id == userid
     )
 
-    // console.log(existingUser[0])
      console.log(existingUser[0])
 
-    //  arr =[12,3,4]
-    //  const [a,b] = arr
-
     const {name,email} = existingUser[0];
-    console.log(name);//naeme: priyanshi123
+    console.log(name);
     const [uname,setuName] = useState(name)
     const [uemail,setuEmail] = useState(email)
 

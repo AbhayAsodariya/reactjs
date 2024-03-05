@@ -20,9 +20,9 @@ const App = () => {
         }>
             
               <Route path='/home/admin' element={
-                <React.Suspense fallback={<>Loding...</>}>
+                <Suspense fallback={<>Loding...</>}>
                   <Admin/>
-                </React.Suspense>
+                </Suspense>
               }></Route>
           
             

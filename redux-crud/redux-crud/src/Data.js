@@ -1,14 +1,12 @@
 export const userList = [
     {
-        "name":"Priyanshi",
-        "email":"p@gmail.com",
+        "name":"Dhaval",
+        "email":"d@gmail.com",
         "id":1
     },
     {
-        "name":"Riddhi",
-        "email":"r@gmail.com",
+        "name":"Nakum",
+        "email":"n@gmail.com",
         "id":2
     }
 ]
-
-// userlist[userlist.length-1].id + 1
