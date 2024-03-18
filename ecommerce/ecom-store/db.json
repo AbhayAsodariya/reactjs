@@ -97,13 +97,23 @@
       "password": "123",
       "cpassword": "123",
       "id": 14
+    },
+    {
+      "username": "sahil",
+      "email": "sahil@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 15
+    },
+    {
+      "username": "sahil",
+      "email": "sahil1@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 16
     }
   ],
-  
-
-
-
-  "product":[
+  "product": [
     {
       "id": 1,
       "image": "http://localhost:3000/image/product-02.png",
@@ -158,6 +168,5 @@
       "name": "Speaker",
       "price": 50
     }
-
-]
+  ]
 }

@@ -35,13 +35,6 @@ const ordernow = ()=>
  }
 }
 
-
-
-
-
-
-
-
   return (
     <div className='addcart-items'>
       <div className='addcart-items-header'> Cart Items </div>

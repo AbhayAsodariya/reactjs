@@ -1,15 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './Navbar';
-import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import Footer from './Footer';
+import { useState } from "react";
+import { CssBaseline } from "@mui/material";
+import { Route, Routes, Navigate, useLocation } from "react-router-dom";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 function App() {
+  const [auth, setAuth] = useState(false);
+  const location = useLocation();
+
   return (
-    <div className="App">
-      <NavBar/>
-      <Footer/>
-    </div>
+    <>
+      <CssBaseline />
+      <Routes>
+        <Route path="/login" element={<Login setAuth={setAuth} />} />
+        <Route path="/signup" element={<Signup setAuth={setAuth} />} />
+        <Route
+          path="/"
+          element={
+            auth ? (
+              <Home setAuth={setAuth} />
+            ) : (
+              <Navigate to="/login" state={{ from: location }} replace />
+            )
+          }
+        />
+      </Routes>
+    </>
   );
 }
 
