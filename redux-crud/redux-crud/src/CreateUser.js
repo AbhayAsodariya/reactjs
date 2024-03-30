@@ -58,4 +58,4 @@ function CreateUser() {
   )
 }
 
-export default CreateUser
+export default CreateUser;

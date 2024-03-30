@@ -39,16 +39,16 @@ function Home() {
 
                 {usersData.map((itmes)=>(
 
-<tr>
-<td>{itmes.id}</td>
-<td>{itmes.name}</td>
-<td>{itmes.email}</td>
-<td>
-<Link to={`/edit/${itmes.id}` } className='btn btn-success me-2'>Edit</Link>
+                    <tr>
+                    <td>{itmes.id}</td>
+                    <td>{itmes.name}</td>
+                    <td>{itmes.email}</td>
+                    <td>
+                    <Link to={`/edit/${itmes.id}` } className='btn btn-success me-2'>Edit</Link>
 
-<button onClick={()=>{LoadDelete(itmes.id)}} className='btn btn-danger me-2'>Delete</button>
-</td>
-</tr>
+                    <button onClick={()=>{LoadDelete(itmes.id)}} className='btn btn-danger me-2'>Delete</button>
+                    </td>
+                    </tr>
                 ))}
            
             </tbody>
