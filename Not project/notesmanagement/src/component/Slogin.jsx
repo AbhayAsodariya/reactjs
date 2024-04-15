@@ -16,7 +16,7 @@ const LoginComponent = ({ mode: propMode, onSubmit }) => {
             <div className={`form-block-wrapper form-block-wrapper--is-${mode}`} ></div>
             <section className={`form-block form-block--is-${mode}`}>
                 <header className="form-block__header">
-                    <h1>{mode === 'login' ? 'Welcome back!' : 'Sign up'}</h1>
+                    <h1 className="text-center">{mode === 'login' ? 'Welcome back Student!' : 'Student Sign up'}</h1>
                     <div className="form-block__toggle-block">
                         <span>{mode === 'login' ? 'Don\'t' : 'Already'} have an account? Click here &#8594;</span>
                         <input id="form-toggler" type="checkbox" onClick={toggleMode} />
@@ -51,7 +51,7 @@ const Input = ({ id, type, label, disabled }) => (
     <input className="form-group__input" type={type} id={id} placeholder={label} disabled={disabled} />
 );
 
-const Login = () => (
+const Slogin = () => (
     <div className={`app app--is-${mode}`}>
         <LoginComponent
             mode={mode}
@@ -62,4 +62,4 @@ const Login = () => (
     </div>
 );
 
-export default Login;
+export default Slogin;

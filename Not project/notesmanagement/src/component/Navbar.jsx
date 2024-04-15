@@ -12,22 +12,19 @@ const AppNavbar = () => {
                       <Nav.Link href="/" as={NavLink}>
                         Notes
                       </Nav.Link>
-                      <NavDropdown title="Settings" id="navbar-dropdown">
-                        <NavDropdown.Item href="#/settings/account">
-                          Account Settings
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="#/settings/appearance">
-                          Appearance
-                        </NavDropdown.Item>
-                      </NavDropdown>
                     </Nav>
                     <Nav>
-                      <Nav.Link eventKey={2} as={NavLink}>
+                      <Nav.Link href="/profile" eventKey={2} as={NavLink}>
                         <i className="fas fa-user-circle"></i> Profile
                       </Nav.Link>
-                      <Nav.Link eventKey={2} as={NavLink} href="/login">
-                        <i className="fas fa-sign-out-alt"></i> Login
-                      </Nav.Link>
+                      <NavDropdown title="Sign In" id="navbar-dropdown">
+                        <NavDropdown.Item href="/faculty-login">
+                          Faculty
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="/student-login">
+                          Student
+                        </NavDropdown.Item>
+                      </NavDropdown>
                     </Nav>
                   </Navbar.Collapse>
                 </Container>

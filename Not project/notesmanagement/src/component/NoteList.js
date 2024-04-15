@@ -19,6 +19,9 @@ const NoteList = () => {
           <p>{note.content}</p>
         </div>
       ))} */}
+
+
+
     </div>
   );
 };

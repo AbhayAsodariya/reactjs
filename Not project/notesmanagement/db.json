@@ -1,0 +1,31 @@
+{
+  "faculty": [
+    {
+      "id": 1,
+      "name": "Abhay",
+      "email": "a@gmail.com",
+      "password": 1234
+    },
+    {
+      "fullname": "aaa",
+      "email": "abhay@gmail.com",
+      "createpassword": "123",
+      "repeatpassword": "123",
+      "id": 2
+    },
+    {
+      "fullname": "aaa",
+      "email": "abhay@gmail.com",
+      "createpassword": "123",
+      "repeatpassword": "123",
+      "id": 3
+    },
+    {
+      "fullname": "sahil",
+      "email": "abhay@gmail.com",
+      "createpassword": "123",
+      "repeatpassword": "123",
+      "id": 4
+    }
+  ]
+}
