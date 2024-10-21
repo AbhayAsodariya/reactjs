@@ -36,7 +36,7 @@ function CreateUser() {
             <label className='form-label'>Name</label>
             <input required value={name} onChange={(e)=>{setName(e.target.value)}} className='form-control'></input>
 
-            {name.length==0 &&  <span className='text-danger'>* Enter name</span> }
+            {name.length == 0 &&  <span className='text-danger'>* Enter name</span> }
            
         </div>
 
